@@ -1,0 +1,183 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wd{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;   
+    margin-top: 100px;
+}
+.result{
+    background: rgb(23,15,159);
+    background: linear-gradient(177deg, rgb(81, 76, 181) 18%,rgb(81, 76, 181) 20%,rgb(64, 57, 201) 40%, rgb(45, 38, 177) 74%, rgb(52, 45, 187) 95%);   
+    text-align: center;
+    border-radius:40px;  
+    min-height: 470px;
+    color: rgb(176, 181, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+@media (max-width: 1060px) {
+
+
+    body{
+        margin: 0;
+    }
+
+    .result,
+    .summary {
+      min-width: 300px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .box{
+    margin: 0; 
+    }
+
+
+
+   .result{
+    border-radius: 0px 0px 10px 10px;
+   }
+
+
+    .result,
+    .summary {
+      min-width: 100%;
+
+    }
+
+
+    .wd{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+  }
+
+
+.Number{
+    background: rgb(23,15,159);
+    background: linear-gradient(177deg, rgb(55, 55, 172) 18%,rgb(48, 34, 174) 50%, rgb(55, 40, 191) 74%);
+    box-shadow: 1px 10px 10px rgb(56, 41, 188) ;
+    width: 30%;
+    padding: 40px;
+    border-radius: 100px;
+    margin: auto;
+
+}
+
+
+
+.result h2 {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f0f0f8;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.memory{
+    background-color: rgba(222, 222, 58, 0.186);
+}
+
+
+.result{
+    width: 22%;
+    
+}
+
+.summary{
+    min-height: 470px;
+    width: 25%;
+    background-color: rgb(226, 233, 239);  
+    border-radius:40px;  
+}
+
+.summary h2{
+    margin-left: 20px;
+    
+}
+
+.R,
+.M,
+.Ve,
+.Vi,
+.points{
+    display: flex;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.R p{color: red;} .M p{color: rgb(185, 185, 100);} .Ve p{color: rgb(29, 198, 91);} .Vi p {color: rgb(38, 38, 170);} span{color: rgb(181, 187, 192);}
+
+
+p,
+strong{
+    margin: 16px  10px;
+}
+
+a{
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    background: rgb(23,15,159);
+    background: linear-gradient(177deg, rgb(58, 58, 157) 18%, rgb(81, 66, 224) 74%);
+    color: #f0f0f8;
+    margin-top: 30px;
+    padding: 15px 100px;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    font-size: 20px
+}
+
+a:hover{
+    background: rgb(61, 61, 80);
+}
+
+.h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.P{
+    font-size: 20px;
+    margin:  25px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h3{
+    font-size: 80px;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Number p{
+    margin: 10px;
+    color: #8e8e93;
+    font-weight: bold;
+}
